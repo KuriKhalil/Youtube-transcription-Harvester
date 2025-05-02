@@ -111,10 +111,6 @@ copy /b *.txt merged.txt
         └── video2.txt
 ```
 
-## Contributing
-
-Contributions are welcome! Please open issues or submit pull requests.
-
 ## License
 
 MIT License. See [LICENSE](LICENSE) for details.
