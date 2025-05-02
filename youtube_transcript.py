@@ -19,7 +19,7 @@ def init_driver():
     options.add_argument("--mute-audio")
     options.add_argument("--lang=en")
     options.add_argument("--disable-gpu")
-    #options.add_argument("--headless=new")
+    options.add_argument("--headless=new")
     prefs = {"profile.managed_default_content_settings.images": 2}
     return webdriver.Chrome(service=Service(r"./chromedriver.exe"), options=options)
 
